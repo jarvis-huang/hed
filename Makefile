@@ -175,6 +175,8 @@ LIBRARIES += glog gflags protobuf leveldb snappy \
 PYTHON_LIBRARIES := boost_python python2.7
 WARNINGS := -Wall -Wno-sign-compare
 
+LIBRARIES += opencv_core opencv_highgui opencv_imgproc opencv_imgcodecs
+
 ##############################
 # Set build directories
 ##############################
